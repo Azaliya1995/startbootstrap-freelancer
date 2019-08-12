@@ -10874,3 +10874,32 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+#about {
+  margin-top: 120px;
+  background-color: #698bac;
+}
+
+#about h2 {
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#about .container {
+  background-color: #FFDF00;
+  padding-top: 30px;
+}
+
+#about p {
+  text-align: justify;
+  color: #2c3e50;
+}
+
+#about .img-wrapper {
+  width: 300px;
+  margin: 10px auto;
+}
+
+#about .img-wrapper img {
+  max-width: 100%;
+}

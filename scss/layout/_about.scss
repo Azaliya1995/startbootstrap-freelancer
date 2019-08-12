@@ -1,0 +1,23 @@
+#about{
+    margin-top: 120px;
+    background-color: lighten($secondary, 30%);
+    h2 {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    .container {
+        background-color: $custom;
+        padding-top: 30px;
+    }
+    p {
+        text-align: justify;
+        color: $secondary;
+    }
+    .img-wrapper {
+        width: 300px;
+        margin: 10px auto;
+        img {
+            max-width: 100%;
+        }
+    }
+}
