@@ -1,0 +1,22 @@
+#tasks {
+    .a-container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 960px;
+        .a-row {
+            display: flex;
+            justify-content: space-around;
+            .a-col-md-6 {
+                width: 40%;
+                padding: 15px;
+                border: 1px solid black;
+            }
+        }
+        p {
+            text-align: justify;
+        }
+    }   
+}

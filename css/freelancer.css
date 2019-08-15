@@ -10903,3 +10903,30 @@ form .row:first-child .floating-label-form-group {
 #about .img-wrapper img {
   max-width: 100%;
 }
+
+#tasks .a-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+}
+
+#tasks .a-container .a-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+#tasks .a-container .a-row .a-col-md-6 {
+  width: 40%;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+#tasks .a-container p {
+  text-align: justify;
+}
