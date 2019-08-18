@@ -20,4 +20,13 @@
             max-width: 100%;
         }
     }
+    .icon-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 15px;
+        i {
+            color: $secondary;
+            font-size: 48px;
+        }
+    }
 }

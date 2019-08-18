@@ -10904,6 +10904,21 @@ form .row:first-child .floating-label-form-group {
   max-width: 100%;
 }
 
+#about .icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+#about .icon-wrapper i {
+  color: #2c3e50;
+  font-size: 48px;
+}
+
 #tasks .a-container {
   width: 100%;
   padding-right: 15px;
@@ -10929,4 +10944,48 @@ form .row:first-child .floating-label-form-group {
 
 #tasks .a-container p {
   text-align: justify;
+}
+
+#custom-carousel {
+  /* ignore the code below */
+}
+
+#custom-carousel .carousel-inner .carousel-item {
+  height: 70vh;
+}
+
+#custom-carousel .carousel-inner .carousel-item img {
+  width: 100%;
+}
+
+#custom-carousel .carousel-caption {
+  padding-bottom: 150px;
+}
+
+#custom-carousel .carousel-caption h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+#custom-carousel .carousel-control.right {
+  background-image: none;
+}
+
+#custom-carousel .carousel-control.left {
+  background-image: none;
+}
+
+#custom-carousel .link-area {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 15px;
+  border-radius: 40px;
+  background: tomato;
+}
+
+#custom-carousel .link-area a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
 }
