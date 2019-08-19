@@ -10994,7 +10994,7 @@ form .row:first-child .floating-label-form-group {
   font-size: 25px;
 }
 
-/* entypo */
+/* entypo*/
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
@@ -11021,11 +11021,8 @@ section #works {
 
 section h2 {
   width: 100%;
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3em;
   text-align: center;
-  background-color: #FFDF00;
   margin: 15px 0px;
   padding: 15px 0px;
 }
