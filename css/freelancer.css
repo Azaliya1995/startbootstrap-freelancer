@@ -11081,3 +11081,63 @@ form .row:first-child .floating-label-form-group {
   margin-top: 10px;
   padding: 5px 20px;
 }
+
+#task {
+  background-color: #698bac;
+}
+
+#task .container {
+  background-color: #FFDF00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+#task .block1 {
+  width: 33.33%;
+  min-height: 300px;
+  background-image: url(http://placekitten.com/g/600/400);
+  background-size: cover;
+}
+
+#task .block2 {
+  width: 66.66%;
+  padding-left: 20px;
+}
+
+#task .close {
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0px;
+  top: 0px;
+  -webkit-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+}
+
+@media (max-width: 960px) {
+  #task .block1, #task .block2 {
+    width: 100%;
+  }
+  #task .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
