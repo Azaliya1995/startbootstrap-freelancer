@@ -10565,8 +10565,12 @@ aside {
   height: 100vh;
   background-color: #eee;
   position: fixed;
-  top: 0;
+  top: 0px;
   width: 100%;
+}
+
+aside a {
+  color: black;
 }
 
 .main-content {
