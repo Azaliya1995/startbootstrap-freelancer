@@ -1,0 +1,14 @@
+aside {
+    height: 100vh;
+    background-color: #eee;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main-content {
+    background-color: rgb(193, 237, 255);
+    section {
+        min-height: 100vh;
+    }
+}
