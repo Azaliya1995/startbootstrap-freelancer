@@ -10564,13 +10564,36 @@ a.text-dark:hover, a.text-dark:focus {
 aside {
   height: 100vh;
   background-color: #eee;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0px;
   width: 100%;
+  padding: 20px 10px;
+}
+
+aside ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+aside > * {
+  margin: 20px auto;
+  text-align: center;
 }
 
 aside a {
   color: black;
+}
+
+aside .round-img {
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+aside .round-img img {
+  max-width: 100%;
 }
 
 .main-content {
@@ -10584,4 +10607,41 @@ aside a {
 
 .main-content p {
   margin-top: 30px;
+}
+
+.wrapper-contact-elements .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.wrapper-contact-elements .icon {
+  width: 70px;
+  height: 70px;
+  background-color: #eee;
+  font-size: 30px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper-contact-elements .icon i {
+  display: block;
+}
+
+.wrapper-contact-elements .info {
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }

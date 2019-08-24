@@ -1,0 +1,23 @@
+.wrapper-contact-elements {
+    .item {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .icon {
+        width: 70px;
+        height: 70px;
+        background-color: $grey-color;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        i {
+            display: block;
+        }
+    }
+    .info {
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+}

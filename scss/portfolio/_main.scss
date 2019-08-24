@@ -1,12 +1,31 @@
 aside {
     height: 100vh;
-    background-color: #eee;
-    position: fixed;
+    background-color: $grey-color;
+    position: sticky;
     top: 0px;
     width: 100%;
+    padding: 20px 10px;
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    > * {
+        margin: 20px auto;
+        text-align: center;
+    }
     a {
         color: black;
-    }    
+    }   
+    .round-img {
+        width: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        max-width: 100%;
+        img {
+            max-width: 100%;
+        }
+    } 
 }
 
 .main-content {
