@@ -10602,7 +10602,6 @@ aside .round-img img {
 
 .main-content section {
   min-height: 100vh;
-  margin-left: 10px;
 }
 
 .main-content p {
@@ -10644,4 +10643,40 @@ aside .round-img img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.wrapper-card-elements .hex-img {
+  background-image: url(/img/portfolio/hex.png);
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 52px;
+  color: white;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 0;
+}
+
+.wrapper-card-elements .hex-img.hex-img-orange {
+  background-image: url(/img/portfolio/orange-hex.png);
+}
+
+.wrapper-card-elements .card {
+  margin-top: 75px;
+  padding-top: 75px;
+}
+
+.wrapper-card-elements .card img {
+  max-width: 100%;
 }
