@@ -1,0 +1,55 @@
+.wrapper-card-elements {
+    // display: flex;
+    // height: 100%;
+    // flex-direction: column;
+    // align-items: stretch;
+    margin-bottom: 50px;
+
+    .hex-img {
+        background-image: url(/img/portfolio/hex.png);
+        background-size: contain;
+         width: 100px;
+         height: 100px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 42px;
+         color: white;
+         position: absolute;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         top: 0;
+         transition: all 0.5s;
+         cursor: pointer;
+         i {
+            transition: all 0.5s;
+         }
+         &.hex-img-orange {
+            background-image: url(/img/portfolio/orange-hex.png);
+         }
+         &:hover {
+            transform: translate(-50%, -40%);
+            i {
+                transform: scale(1.5);
+            }
+         }
+    }
+    .card {
+        margin-top: 75px;
+        padding-top: 75px;
+        text-align: center;
+        
+        img {
+            max-width: 100%;
+        }
+    }
+}
+#bird {
+    transition: all 1s;
+  
+    &.fly {
+      top: 100px;
+      left: 400px;
+      transform: scale(1.2) rotate(15deg);
+    }
+  }

@@ -10645,11 +10645,15 @@ aside .round-img img {
   align-items: center;
 }
 
+.wrapper-card-elements {
+  margin-bottom: 50px;
+}
+
 .wrapper-card-elements .hex-img {
   background-image: url(/img/portfolio/hex.png);
   background-size: contain;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10659,24 +10663,55 @@ aside .round-img img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 52px;
+  font-size: 42px;
   color: white;
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   top: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.wrapper-card-elements .hex-img i {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .wrapper-card-elements .hex-img.hex-img-orange {
   background-image: url(/img/portfolio/orange-hex.png);
 }
 
+.wrapper-card-elements .hex-img:hover {
+  -webkit-transform: translate(-50%, -40%);
+  transform: translate(-50%, -40%);
+}
+
+.wrapper-card-elements .hex-img:hover i {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
 .wrapper-card-elements .card {
   margin-top: 75px;
   padding-top: 75px;
+  text-align: center;
 }
 
 .wrapper-card-elements .card img {
   max-width: 100%;
+}
+
+#bird {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#bird.fly {
+  top: 100px;
+  left: 400px;
+  -webkit-transform: scale(1.2) rotate(15deg);
+  transform: scale(1.2) rotate(15deg);
 }
