@@ -12,14 +12,16 @@ a.onclick = function(e) {
 /*for overlay*/
 var overlay = document.querySelector(".overlay");
 
-var open = document.querySelector(".open-popup")
+var open = document.querySelectorAll(".open-popup")
 
-open.onclick = function(e) {
+for (var i = 0; i < open.length; i++) {
+open[i].onclick = function(e) {
   e.preventDefault();
     var popup = document.querySelector(".popup");
     popup.classList.add("show");
     overlay.style.display="block";
   }
+}
 
   var close = document.querySelector(".close-popup");
 close.onclick = function(e) {
