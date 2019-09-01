@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <div class="overlay"></div>
     <main>
         <div class="container">
             <div class="row">
@@ -36,109 +37,134 @@
                 </div>
                 <div class="col-md-9 main-content">
                     <section id="about">
-                        About
+                        <p class="cards">About</p>
+                        <h3>Who am I?</h3>
                     </section>
                     <section id="services">
-                            <p class="cards">SERVICES</p>
-                        <h3>SERVICES</h3>
+                        <p class="cards">Services</p>
+                        <h3>Services</h3>
                         <div class="wrapper-card-elements">
-                        <div class="container-fluid">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="card">
-                                                    <div class="hex-img" id="bird">
-                                                        <i class="fab fa-twitter"></i>
-                                                    </div>
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Card title</h5>
-                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                            <a href="#" class="btn btn-primary" id="fly">Go somewhere</a>
-                                                        </div>
-                                                    </div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <div class="hex-img" id="bird">
+                                                <i class="fab fa-twitter"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary open-popup" id="fly">Go somewhere</a>
+                                                <div class="popup">
+                                                    <div class="popup-header">
+                                                    Info
+                                                    <a href="#" class="close-popup">Close</a></div>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
+                                                        numquam consectetur voluptatibus iure odio quod porro quaerat
+                                                        tenetur quam provident!
+                                                    </p>
                                                 </div>
-                                                    <div class="col-md-4" >
-                                                            <div class="card">
-                                                            <div class="hex-img">
-                                                                    <i class="fab fa-twitter"></i>
-                                                                </div>
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Card title</h5>
-                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                    <div class="col-md-4" >
-                                                            <div class="card">
-                                                            <div class="hex-img">
-                                                                    <i class="fab fa-twitter"></i>
-                                                                </div>
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Card title</h5>
-                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                    <div class="col-md-4">
-                                                            <div class="card">
-                                                            <div class="hex-img hex-img-orange">
-                                                                    <i class="fab fa-facebook"></i>
-                                                                </div>
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                        <div class="col-md-4">
-                                                                <div class="card">
-                                                                <div class="hex-img hex-img-orange">
-                                                                        <i class="fab fa-facebook"></i>
-                                                                    </div>
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                        <div class="col-md-4">
-                                                                <div class="card">
-                                                                <div class="hex-img hex-img-orange">
-                                                                        <i class="fab fa-facebook"></i>
-                                                                    </div>
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                             </div>
                                         </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <div class="hex-img" id="bird">
+                                                <i class="fab fa-twitter"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary" id="fly">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <div class="hex-img">
+                                                <i class="fab fa-twitter"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <div class="hex-img hex-img-orange">
+                                                <i class="fab fa-facebook"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <div class="hex-img hex-img-orange">
+                                                <i class="fab fa-facebook"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <div class="hex-img hex-img-orange">
+                                                <i class="fab fa-facebook"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                     </section>
                     <section id="skills">
-                        Skills
+                        <p class="cards">Skills</p>
+                        <h3>My skills</h3>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione magni nobis libero corrupti optio atque. Quisquam necessitatibus dolorem fugit molestiae optio repellendus consequatur sit voluptatibus recusandae architecto, officia minus? Nobis nihil assumenda neque quibusdam. Aperiam ipsa esse dolorem, ipsum expedita, praesentium corrupti quod deserunt reprehenderit dolore eos, ipsam voluptatibus illum!
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione magni nobis libero
+                            corrupti optio atque. Quisquam necessitatibus dolorem fugit molestiae optio repellendus
+                            consequatur sit voluptatibus recusandae architecto, officia minus? Nobis nihil assumenda
+                            neque quibusdam. Aperiam ipsa esse dolorem, ipsum expedita, praesentium corrupti quod
+                            deserunt reprehenderit dolore eos, ipsam voluptatibus illum!
                         </p>
                     </section>
                     <section id="education">
-                        Education
+                        <p class="cards">Education</p>
+                        <h3>Education</h3>
                     </section>
                     <section id="experience">
-                        Experience
+                        <p class="cards">Experience</p>
+                        <h3>Experience</h3>
                     </section>
                     <section id="work">
-                        <p class="my-work">MY WORK</p>
-                        <h3>RECENT WORK</h3>
+                        <p class="my-work cards">My work</p>
+                        <h3>Recent work</h3>
                     </section>
 
                     <section id="contact">
-                        <p class="label">GET IN TOUCH</p>
-                        <h3>CONTACT</h3>
+                        <p class="label cards">Get in touch</p>
+                        <h3>Contact</h3>
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-6">
@@ -173,8 +199,10 @@
                                     <form>
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Email address</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Enter email">
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                                email with anyone else.</small>
                                         </div>
                                         <div class="form-group">
                                             <label for="comment-input">Comment</label>
@@ -190,9 +218,9 @@
                             </div>
                         </div>
                     </section>
-                    </div>
                 </div>
             </div>
+        </div>
     </main>
 
     <!-- Bootstrap core JavaScript -->
