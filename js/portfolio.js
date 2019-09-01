@@ -14,14 +14,15 @@ var overlay = document.querySelector(".overlay");
 
 var open = document.querySelectorAll(".open-popup")
 
-for (var i = 0; i < open.length; i++) {
-open[i].onclick = function(e) {
-  e.preventDefault();
-    var popup = document.querySelector(".popup");
-    popup.classList.add("show");
-    overlay.style.display="block";
-  }
-}
+open.forEach(elem => {
+  elem.onclick = function(e) {
+    e.preventDefault();
+      var popup = document.querySelector(".popup");
+      popup.classList.add("show");
+      overlay.style.display="block";
+    }
+});
+
 
   var close = document.querySelector(".close-popup");
 close.onclick = function(e) {
