@@ -17,7 +17,10 @@ var open = document.querySelectorAll(".open-popup")
 open.forEach(elem => {
   elem.onclick = function(e) {
     e.preventDefault();
+    var dataId = elem.getAttribute("data-id");
+    var content = document.querySelector(`.content[data-id='${dataId}']`);
       var popup = document.querySelector(".popup");
+      document.querySelector(".popup .content").innerHTML = content.innerHTML;
       popup.classList.add("show");
       overlay.style.display="block";
     }

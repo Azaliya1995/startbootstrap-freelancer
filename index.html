@@ -16,19 +16,22 @@
 <body>
     <div class="overlay"></div>
     <div class="popup">
+        <a href="#" class="close-popup"><i class="fas fa-window-close"></i></a>
+        <div class="content">
             <div class="popup-header">
             Info
-            <a href="#" class="close-popup">Close</a></div>
+            </div>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
                 numquam consectetur voluptatibus iure odio quod porro quaerat
                 tenetur quam provident!
             </p>
         </div>
+    </div>
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 mobile-bg-grey">
                     <aside>
                         <div class="round-img">
                             <img src="http://placekitten.com/g/400/400" alt="">
@@ -36,11 +39,7 @@
                         <div class="name">John Doe</div>
                         <ul>
                             <li><a href="#about">About</a></li>
-                            <li><a href="#services">Services</a></li>
                             <li><a href="#skills">Skills</a></li>
-                            <li><a href="#education">Education</a></li>
-                            <li><a href="#experience">Experience</a></li>
-                            <li><a href="#work">Work</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </aside>
@@ -50,13 +49,13 @@
                         <p class="cards">About</p>
                         <h3>Who am I?</h3>
                     </section>
-                    <section id="services">
-                        <p class="cards">Services</p>
-                        <h3>Services</h3>
+                    <section id="skills">
+                        <p class="cards">Skills</p>
+                        <h3>Skills</h3>
                         <div class="wrapper-card-elements">
                             <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-6 col-lg-4">
                                         <div class="card">
                                             <div class="hex-img" id="bird">
                                                 <i class="fab fa-twitter"></i>
@@ -65,12 +64,22 @@
                                                 <h5 class="card-title">Card title</h5>
                                                 <p class="card-text">Some quick example text to build on the card title
                                                     and make up the bulk of the card's content.</p>
-                                                <a href="#" class="btn btn-primary open-popup" id="fly">Go somewhere</a>
+                                                <a href="#" class="btn btn-primary open-popup" id="fly" data-id="1">Go somewhere</a>
+                                            </div>
+                                            <div class="content" data-id="1">
+                                                <div class="popup-header">
+                                                Info-1
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
+                                                    numquam consectetur voluptatibus iure odio quod porro quaerat
+                                                    tenetur quam provident!
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4">
+                                    <div class="col-md-6 col-lg-4">
                                         <div class="card">
                                             <div class="hex-img" id="bird">
                                                 <i class="fab fa-twitter"></i>
@@ -79,11 +88,21 @@
                                                 <h5 class="card-title">Card title</h5>
                                                 <p class="card-text">Some quick example text to build on the card title
                                                     and make up the bulk of the card's content.</p>
-                                                <a href="#" class="btn btn-primary open-popup" id="fly">Go somewhere</a>
+                                                <a href="#" class="btn btn-primary open-popup" id="fly" data-id="2">Go somewhere</a>
+                                            </div>
+                                            <div class="content" data-id="2">
+                                                <div class="popup-header">
+                                                Info-2
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
+                                                    numquam consectetur voluptatibus iure odio quod porro quaerat
+                                                    tenetur quam provident!
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-6 col-lg-4">
                                         <div class="card">
                                             <div class="hex-img">
                                                 <i class="fab fa-twitter"></i>
@@ -96,7 +115,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-6 col-lg-4">
                                         <div class="card">
                                             <div class="hex-img hex-img-orange">
                                                 <i class="fab fa-facebook"></i>
@@ -109,7 +128,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-6 col-lg-4">
                                         <div class="card">
                                             <div class="hex-img hex-img-orange">
                                                 <i class="fab fa-facebook"></i>
@@ -122,7 +141,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-6 col-lg-4">
                                         <div class="card">
                                             <div class="hex-img hex-img-orange">
                                                 <i class="fab fa-facebook"></i>
@@ -138,30 +157,6 @@
                                 </div>
                             </div>
                     </section>
-                    <section id="skills">
-                        <p class="cards">Skills</p>
-                        <h3>My skills</h3>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione magni nobis libero
-                            corrupti optio atque. Quisquam necessitatibus dolorem fugit molestiae optio repellendus
-                            consequatur sit voluptatibus recusandae architecto, officia minus? Nobis nihil assumenda
-                            neque quibusdam. Aperiam ipsa esse dolorem, ipsum expedita, praesentium corrupti quod
-                            deserunt reprehenderit dolore eos, ipsam voluptatibus illum!
-                        </p>
-                    </section>
-                    <section id="education">
-                        <p class="cards">Education</p>
-                        <h3>Education</h3>
-                    </section>
-                    <section id="experience">
-                        <p class="cards">Experience</p>
-                        <h3>Experience</h3>
-                    </section>
-                    <section id="work">
-                        <p class="my-work cards">My work</p>
-                        <h3>Recent work</h3>
-                    </section>
-
                     <section id="contact">
                         <p class="label cards">Get in touch</p>
                         <h3>Contact</h3>

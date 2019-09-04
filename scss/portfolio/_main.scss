@@ -1,10 +1,11 @@
 aside {
-    height: 100vh;
+    min-height: 100vh;
     background-color: $grey-color;
     position: sticky;
     top: 0px;
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 10px 40px 10px;
+    
 
     ul {
         list-style-type: none;
@@ -39,5 +40,14 @@ aside {
     }
     p {
         margin-top: 30px;
+    }
+}
+
+.mobile-bg-grey {
+    background-color: $grey-color;
+}
+@media (max-width: 991px) {
+    aside {
+        font-size: 1.3em;
     }
 }
